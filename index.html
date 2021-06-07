@@ -11,14 +11,22 @@
 <div id="root2"></div>
 <script type="text/jsx">
     const divStyle = {
-        color: 'red'};
+        color: 'red',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: '100px auto'
+        };
     ReactDOM.render((
         <h1 style={divStyle}>Hello, world!</h1>
     ), document.querySelector('#root'));
 </script>
 <script type="text/jsx" >
     const divStyle2 = {
-        color: 'green'};
+        color: 'green',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: '100px auto'
+    };
     ReactDOM.render((
         <h1 style={divStyle2}>Привет, Мир!</h1>
     ), document.querySelector('#root2'));
